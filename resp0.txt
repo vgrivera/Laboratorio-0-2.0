@@ -1,0 +1,140 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1671
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset0 Menlo-Regular;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red47\green180\blue29;\red180\green36\blue25;
+}
+{\*\expandedcolortbl;;\csgray\c0;\cssrgb\c20238\c73898\c14947;\cssrgb\c76409\c21698\c12524;
+}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 v
+\f1\fs22 \cf2 \CocoaLigature0 Last login: Mon Mar 11 15:59:25 on ttys000\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+marks-MacBook-Air:~ markstrongman$ pwd\
+/Users/markstrongman\
+marks-MacBook-Air:~ markstrongman$ cd desktop/\
+marks-MacBook-Air:desktop markstrongman$ cd laboratorio-0-2.0\
+marks-MacBook-Air:laboratorio-0-2.0 markstrongman$ git add *\
+marks-MacBook-Air:laboratorio-0-2.0 markstrongman$ git commit -m "Lab0"\
+[master (root-commit) d036c74] Lab0\
+ Committer: mark strongman <markstrongman@marks-MacBook-Air.local>\
+Your name and email address were configured automatically based\
+on your username and hostname. Please check that they are accurate.\
+You can suppress this message by setting them explicitly. Run the\
+following command and follow the instructions in your editor to edit\
+your configuration file:\
+\
+    git config --global --edit\
+\
+After doing this, you may fix the identity used for this commit with:\
+\
+    git commit --amend --reset-author\
+\
+ 1 file changed, 8 insertions(+)\
+ create mode 100644 Laboratorio 0.rtf\
+marks-MacBook-Air:laboratorio-0-2.0 markstrongman$ git push\
+Username for 'https://github.com': vgrivera\
+Password for 'https://vgrivera@github.com': \
+Enumerating objects: 3, done.\
+Counting objects: 100% (3/3), done.\
+Delta compression using up to 4 threads\
+Compressing objects: 100% (2/2), done.\
+Writing objects: 100% (3/3), 454 bytes | 454.00 KiB/s, done.\
+Total 3 (delta 0), reused 0 (delta 0)\
+To https://github.com/vgrivera/Laboratorio-0-2.0.git\
+ * [new branch]      master -> master\
+marks-MacBook-Air:laboratorio-0-2.0 markstrongman$ git add *\
+marks-MacBook-Air:laboratorio-0-2.0 markstrongman$ git commit -m "Le cambie el formato"\
+[master b1a2dd8] Le cambie el formato\
+ Committer: mark strongman <markstrongman@marks-MacBook-Air.local>\
+Your name and email address were configured automatically based\
+on your username and hostname. Please check that they are accurate.\
+You can suppress this message by setting them explicitly. Run the\
+following command and follow the instructions in your editor to edit\
+your configuration file:\
+\
+    git config --global --edit\
+\
+After doing this, you may fix the identity used for this commit with:\
+\
+    git commit --amend --reset-author\
+\
+ 1 file changed, 8 insertions(+)\
+ create mode 100644 Laboratorio 0.txt\
+marks-MacBook-Air:laboratorio-0-2.0 markstrongman$ git push\
+Enumerating objects: 3, done.\
+Counting objects: 100% (3/3), done.\
+Delta compression using up to 4 threads\
+Compressing objects: 100% (2/2), done.\
+Writing objects: 100% (2/2), 265 bytes | 265.00 KiB/s, done.\
+Total 2 (delta 0), reused 0 (delta 0)\
+To https://github.com/vgrivera/Laboratorio-0-2.0.git\
+   d036c74..b1a2dd8  master -> master\
+marks-MacBook-Air:laboratorio-0-2.0 markstrongman$ git pull\
+remote: Enumerating objects: 5, done.\
+remote: Counting objects: 100% (5/5), done.\
+remote: Compressing objects: 100% (3/3), done.\
+remote: Total 3 (delta 2), reused 0 (delta 0), pack-reused 0\
+Unpacking objects: 100% (3/3), done.\
+From https://github.com/vgrivera/Laboratorio-0-2.0\
+   b1a2dd8..77a8c0d  master     -> origin/master\
+Updating b1a2dd8..77a8c0d\
+Fast-forward\
+ Laboratorio 0.txt | 4 \cf3 ++\cf4 --\cf2 \
+ 1 file changed, 2 insertions(+), 2 deletions(-)\
+marks-MacBook-Air:laboratorio-0-2.0 markstrongman$ git pull\
+remote: Enumerating objects: 5, done.\
+remote: Counting objects: 100% (5/5), done.\
+remote: Compressing objects: 100% (2/2), done.\
+remote: Total 3 (delta 1), reused 0 (delta 0), pack-reused 0\
+Unpacking objects: 100% (3/3), done.\
+From https://github.com/vgrivera/Laboratorio-0-2.0\
+   77a8c0d..e547b3c  master     -> origin/master\
+Updating 77a8c0d..e547b3c\
+Fast-forward\
+ Laboratorio 0.txt | 9 \cf3 +\cf4 --------\cf2 \
+ 1 file changed, 1 insertion(+), 8 deletions(-)\
+marks-MacBook-Air:laboratorio-0-2.0 markstrongman$ history\
+    1  GIT\
+    2  which git\
+    3  git clone https://github.com/jkrokan/IIC2115.git\
+    4  git clone https://github.com/jkrokan/IIC2115.git\
+    5  desktop\
+    6  cd desktop\
+    7  mkdir vivian\
+    8  cd vivian\
+    9  git clone https://github.com/jkrokan/IIC2115.git\
+   10  open prueba.py\
+   11  nano prueba.py\
+   12  ls\
+   13  python3 prueba.py\
+   14  git clone https://github.com/vgrivera/LO.git\
+   15  git clonehttps://github.com/vgrivera/Laboratorio-0-2.0.git \
+   16  git clone https://github.com/vgrivera/Laboratorio-0-2.0.git\
+   17  pwd\
+   18  cd desktop/\
+   19  git clone https://github.com/vgrivera/Laboratorio-0-2.0.git\
+   20  git add *\
+   21  git add *\
+   22  cd Laboratorio 0 2.0\
+   23  cd Laboratorio-0-2.0\
+   24  git add *\
+   25  git commit\
+   26  pwd\
+   27  cd desktop/\
+   28  cd laboratorio-0-2.0\
+   29  git add * \
+   30  git commit\
+   31  pwd\
+   32  cd desktop/\
+   33  cd laboratorio-0-2.0\
+   34  git add *\
+   35  git commit -m "Lab0"\
+   36  git push\
+   37  git add *\
+   38  git commit -m "Le cambie el formato"\
+   39  git push\
+   40  git pull\
+   41  git pull\
+   42  history\
+marks-MacBook-Air:laboratorio-0-2.0 markstrongman$ }
